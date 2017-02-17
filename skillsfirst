@@ -1,0 +1,13 @@
+# SRE SKILLS
+
+  1 MySQL
+    # database
+      show databases
+      create database manegeries;
+      use manegeries
+      grant all on manegeries.* to 'your_mysql_name@your_client_host';
+      show tables;
+      desc table_name; = show columns from table_name;
+    # table
+      create table pet (
+          
